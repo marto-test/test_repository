@@ -8,7 +8,7 @@ class TestMethods(unittest.TestCase):
         self.assertEqual(awesome.function_1(), True)
 
     def test_function_2(self):
-        self.assertEqual(awesome.function_2(), False)
+        self.assertEqual(awesome.function_2(), True)
 
 
 if __name__ == '__main__':
