@@ -1,11 +1,11 @@
 import unittest
 
-import test_directory as awesome
+import test_repository as awesome
 
 
 class TestMethods(unittest.TestCase):
-    def test_add(self):
-        self.assertEqual(awesome.smile(), ":)")
+    def test_function_1(self):
+        self.assertEqual(awesome.function_1(), True)
 
 
 if __name__ == '__main__':
