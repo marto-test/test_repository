@@ -1,6 +1,6 @@
 import unittest
 
-import test_repository as awesome
+import test_repository.test_module as awesome
 
 
 class TestMethods(unittest.TestCase):
