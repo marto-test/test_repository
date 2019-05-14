@@ -1,1 +1,6 @@
-import test_module
+# import test_module
+def smile():
+    return ":)"
+
+def frown():
+    return ":("
